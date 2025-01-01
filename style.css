@@ -1,0 +1,100 @@
+body {
+ font-family: Arial, sans-serif;
+ margin: 20px;
+ background-color: #000000;
+  font-family: Impact, sans-serif; /* Ganti Impact dengan font tebal lainnya jika perlu */
+  font-weight: 700;
+  letter-spacing: 0px; /* Sesuaikan nilai negatif untuk merapatkan huruf */
+}
+
+}
+
+header {
+ background-color: #333;
+ color: #fff;
+ padding: 20px;
+ text-align: center;
+}
+
+.karakter {
+ width: 80%;
+ margin: 40px auto;
+ padding: 20px;
+ border: 1px solid #ddd;
+ box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.lainnya {
+ width: 80%;
+ margin: 40px auto;
+ padding: 20px;
+ border: 1px solid #ddd;
+ box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.karakter img {
+ width: 100%;
+ height: 350px;
+ object-fit: cover;
+ margin-bottom: 20px;
+}
+
+.karakter h1 {
+ margin-top: 0;
+ text-align: center;
+ font-size: 200%;
+}
+
+.karakter ul {
+ list-style: none;
+ padding: 0;
+ margin: 0;
+}
+
+.karakter li {
+ margin-bottom: 10px;
+ color: #979797;
+ 
+}
+.karakter h1 {
+  color: #979797;
+  font-style: italic;
+}
+.karakter p {
+  color: #979797;
+  font-style: italic;
+}
+.karakter h3 {
+  color: #979797;
+}
+.karakter h2 {
+  color: #979797;
+  height: 10px;
+}
+
+h1 {
+  color:#ffffff;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.kotak-teks {
+  width: 360px;
+  height: 600px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  white-space: normal;
+  border: 1px solid #ddd;
+  scrollbar-width: thin;
+}
+.all-manip {
+  width: 240px;
+  height: 300px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  white-space: normal;
+  border: 1px solid #ddd;
+  scrollbar-width: thin;
+}
+
+.all-manip li {
+  height: 8px;
+}
